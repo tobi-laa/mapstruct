@@ -103,6 +103,10 @@ public class MavenIntegrationTest {
     void namingStrategyTest() {
     }
 
+    @ProcessorTest(baseDir = "packagePrivateAccessors")
+    void packagePrivateAccessors() {
+    }
+
     /**
      * ECLIPSE_JDT is not working with Protobuf. Use all other available processor types.
      */
